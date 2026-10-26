@@ -125,7 +125,7 @@ video, audio {
     height: auto;
 }
 
-/* Posicionamiento del formulario mediante Flexbox (OPCIONAL)   */
+/* Posicionamiento del formulario mediante Flexbox  */
 
 /*Especificidad: 001*/
 form {
@@ -199,5 +199,10 @@ form button[type="submit"] {
     header nav {
         flex-direction: column; /*ADVERTENCIA: redefinición de la propiedad con valor original row */
         align-items: center;
+    }
+
+    /* Especificidad: 001 */
+    form, form > fieldset {
+        width: 100%;
     }
 }
