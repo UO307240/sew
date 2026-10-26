@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="1100" height="600" viewBox="0 0 1100 600">
+  <rect width="100%" height="100%" fill="#ffffff" />
+  <text x="550.0" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#333333">Perfil Altimétrico - Etapa 11: Cartagena a Lorca</text>
+  <line x1="80" y1="440.0" x2="1040" y2="440.0" stroke="#e0e0e0" stroke-width="1" stroke-dasharray="4,4" />
+  <text x="70" y="444.0" text-anchor="end" font-family="Arial, sans-serif" font-size="11" fill="#777777">0 m</text>
+  <line x1="80" y1="385.7142857142857" x2="1040" y2="385.7142857142857" stroke="#e0e0e0" stroke-width="1" stroke-dasharray="4,4" />
+  <text x="70" y="389.7142857142857" text-anchor="end" font-family="Arial, sans-serif" font-size="11" fill="#777777">100 m</text>
+  <line x1="80" y1="331.42857142857144" x2="1040" y2="331.42857142857144" stroke="#e0e0e0" stroke-width="1" stroke-dasharray="4,4" />
+  <text x="70" y="335.42857142857144" text-anchor="end" font-family="Arial, sans-serif" font-size="11" fill="#777777">200 m</text>
+  <line x1="80" y1="277.1428571428571" x2="1040" y2="277.1428571428571" stroke="#e0e0e0" stroke-width="1" stroke-dasharray="4,4" />
+  <text x="70" y="281.1428571428571" text-anchor="end" font-family="Arial, sans-serif" font-size="11" fill="#777777">300 m</text>
+  <line x1="80" y1="222.85714285714286" x2="1040" y2="222.85714285714286" stroke="#e0e0e0" stroke-width="1" stroke-dasharray="4,4" />
+  <text x="70" y="226.85714285714286" text-anchor="end" font-family="Arial, sans-serif" font-size="11" fill="#777777">400 m</text>
+  <line x1="80" y1="168.57142857142856" x2="1040" y2="168.57142857142856" stroke="#e0e0e0" stroke-width="1" stroke-dasharray="4,4" />
+  <text x="70" y="172.57142857142856" text-anchor="end" font-family="Arial, sans-serif" font-size="11" fill="#777777">500 m</text>
+  <line x1="80" y1="114.28571428571428" x2="1040" y2="114.28571428571428" stroke="#e0e0e0" stroke-width="1" stroke-dasharray="4,4" />
+  <text x="70" y="118.28571428571428" text-anchor="end" font-family="Arial, sans-serif" font-size="11" fill="#777777">600 m</text>
+  <line x1="80" y1="60.0" x2="1040" y2="60.0" stroke="#e0e0e0" stroke-width="1" stroke-dasharray="4,4" />
+  <text x="70" y="64.0" text-anchor="end" font-family="Arial, sans-serif" font-size="11" fill="#777777">700 m</text>
+  <polygon points="80,440 80.0,418.8 223.6,434.6 306.0,434.6 382.7,420.5 553.8,370.5 778.5,317.9 840.3,101.8 1040.0,257.1 1040,440" fill="#fcd9d9" />
+  <polyline points="80.0,418.8 223.6,434.6 306.0,434.6 382.7,420.5 553.8,370.5 778.5,317.9 840.3,101.8 1040.0,257.1" fill="none" stroke="#d32f2f" stroke-width="3" />
+  <line x1="80" y1="440" x2="1040" y2="440" stroke="#333333" stroke-width="2" />
+  <circle cx="80.0" cy="418.8" r="4" fill="#d32f2f" stroke="#ffffff" stroke-width="1" />
+  <line x1="80.0" y1="418.8" x2="80.0" y2="440" stroke="#aaaaaa" stroke-width="1" stroke-dasharray="2,2" />
+  <text x="80.0" y="455.0" text-anchor="start" font-family="Arial, sans-serif" font-size="11" fill="#222222" transform="rotate(90, 80.0, 455.0)">Cartagena (39 m, 0.0 km)</text>
+  <circle cx="223.6" cy="434.6" r="4" fill="#d32f2f" stroke="#ffffff" stroke-width="1" />
+  <line x1="223.6" y1="434.6" x2="223.6" y2="440" stroke="#aaaaaa" stroke-width="1" stroke-dasharray="2,2" />
+  <text x="223.6" y="455.0" text-anchor="start" font-family="Arial, sans-serif" font-size="11" fill="#222222" transform="rotate(90, 223.6, 455.0)">Los Nietos (10 m, 23.0 km)</text>
+  <circle cx="306.0" cy="434.6" r="4" fill="#d32f2f" stroke="#ffffff" stroke-width="1" />
+  <line x1="306.0" y1="434.6" x2="306.0" y2="440" stroke="#aaaaaa" stroke-width="1" stroke-dasharray="2,2" />
+  <text x="306.0" y="455.0" text-anchor="start" font-family="Arial, sans-serif" font-size="11" fill="#222222" transform="rotate(90, 306.0, 455.0)">Los Alcázares (10 m, 36.2 km)</text>
+  <circle cx="382.7" cy="420.5" r="4" fill="#d32f2f" stroke="#ffffff" stroke-width="1" />
+  <line x1="382.7" y1="420.5" x2="382.7" y2="440" stroke="#aaaaaa" stroke-width="1" stroke-dasharray="2,2" />
+  <text x="382.7" y="455.0" text-anchor="start" font-family="Arial, sans-serif" font-size="11" fill="#222222" transform="rotate(90, 382.7, 455.0)">Torre-Pacheco (36 m, 48.5 km)</text>
+  <circle cx="553.8" cy="370.5" r="4" fill="#d32f2f" stroke="#ffffff" stroke-width="1" />
+  <line x1="553.8" y1="370.5" x2="553.8" y2="440" stroke="#aaaaaa" stroke-width="1" stroke-dasharray="2,2" />
+  <text x="553.8" y="455.0" text-anchor="start" font-family="Arial, sans-serif" font-size="11" fill="#222222" transform="rotate(90, 553.8, 455.0)">Fuente Álamo de Murcia (128 m, 75.9 km)</text>
+  <circle cx="778.5" cy="317.9" r="4" fill="#d32f2f" stroke="#ffffff" stroke-width="1" />
+  <line x1="778.5" y1="317.9" x2="778.5" y2="440" stroke="#aaaaaa" stroke-width="1" stroke-dasharray="2,2" />
+  <text x="778.5" y="455.0" text-anchor="start" font-family="Arial, sans-serif" font-size="11" fill="#222222" transform="rotate(90, 778.5, 455.0)">Sprint Intermedio Totana (225 m, 111.9 km)</text>
+  <circle cx="840.3" cy="101.8" r="4" fill="#d32f2f" stroke="#ffffff" stroke-width="1" />
+  <line x1="840.3" y1="101.8" x2="840.3" y2="440" stroke="#aaaaaa" stroke-width="1" stroke-dasharray="2,2" />
+  <text x="840.3" y="455.0" text-anchor="start" font-family="Arial, sans-serif" font-size="11" fill="#222222" transform="rotate(90, 840.3, 455.0)">Alto de Aledo (623 m, 121.8 km)</text>
+  <circle cx="1040.0" cy="257.1" r="4" fill="#d32f2f" stroke="#ffffff" stroke-width="1" />
+  <line x1="1040.0" y1="257.1" x2="1040.0" y2="440" stroke="#aaaaaa" stroke-width="1" stroke-dasharray="2,2" />
+  <text x="1040.0" y="455.0" text-anchor="start" font-family="Arial, sans-serif" font-size="11" fill="#222222" transform="rotate(90, 1040.0, 455.0)">Lorca (337 m, 153.8 km)</text>
+</svg>

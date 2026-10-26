@@ -1,0 +1,143 @@
+/* **************************************************/
+/*                  LaVuelta2026                    */
+/*                Estilos generales                 */
+/* **************************************************/
+/*                DATOS ESTUDIANTE                  */
+/* -------------------------------------------------*/
+/*  Nombre y Apellidos: Darío González Martínez     */
+/*  Correo electrónico (uniovi): UO307240@uniovi.es */
+/*  Grupo de laboratorio:                           */
+/* **************************************************/
+
+/* ========================================================================== */ 
+/* Gama cromática del proyecto y estudio de contraste (Nivel AAA - WCAG)      */ 
+/* ========================================================================== */ 
+/* Gama cromática: 
+- Color principal: #1B2B48 (Azul Marino Oscuro)     
+    o Contraste de 11.20:1 con color secundario (Nivel AAA)     
+    o Contraste de 12.80:1 con color blanco (Nivel AAA) 
+- Color secundario: #F9F0F5 (Rosado claro)     
+    o Contraste de 11.20:1 con color principal (Nivel AAA)     
+    o Contraste de 18.81:1 con color negro (Nivel AAA) 
+- Color blanco: #FFFFFF     
+    o Contraste de 12.80:1 con color principal (Nivel AAA)     
+    o Contraste de 21.00:1 con color negro (Nivel AAA) 
+- Color negro: #000000     
+    o Contraste de 18.81:1 con color secundario (Nivel AAA)     
+    o Contraste de 21.00:1 con color blanco (Nivel AAA) 
+*/  
+
+/*Especificidad: 010*/ 
+:root {     
+    --color-principal: #1B2B48;     
+    --color-secundario: #F9F0F5;     
+    --color-negro: #000000;     
+    --color-blanco: #FFFFFF; 
+}
+
+/*Especificidad: 001*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--color-blanco);
+    color: var(--color-negro);
+}
+
+/*Especificidad: 001*/
+header, footer {
+    background-color: var(--color-principal);
+    color: var(--color-blanco);
+}
+
+/*Especificidad: 002*/
+header a, footer a {
+    color: var(--color-secundario); /*ADVERTENCIA: color de fondo heredado de header y footer --color-principal */
+    text-decoration: none;
+}
+
+/*Especificidad: 001*/
+h1, h2, h3, h4, h5, h6 {
+    background-color: var(--color-blanco);
+    color: var(--color-principal);
+}
+
+/*Especificidad: 002*/
+header h1 {
+    background-color: var(--color-principal);
+    color: var(--color-blanco);
+}
+
+/*Especificidad: 003*/
+header h1 a {
+    color: var(--color-blanco); /*ADVERTENCIA: color de fondo heredado de header y footer --color-principal */
+}
+
+/*Especificidad: 010*/
+[aria-current="page"] {
+    font-weight: bold;
+}
+
+/*Especificidad: 003*/
+header + nav > ol {
+    font-size: 0.85em;
+    list-style: none;
+    padding-left: 0;
+    margin: 0.5em 0;
+}
+
+/*Especificidad: 013*/
+nav[aria-label="migas"] > ol > li {
+    display: inline;
+}
+
+/*Especificidad: 023*/
+nav[aria-label="migas"] ol li:last-child {
+    font-weight: bold;
+}
+
+/*Especificidad: 014*/
+section:has(picture) > ul > li:first-child {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+/*Especificidad: 014*/
+section:has(picture) > ul > li:nth-child(3) {
+    font-size: 1.5em;
+    font-weight: normal; 
+}
+
+/*Especificidad: 014*/
+section:has(picture) > ul > li:nth-child(4) {
+    font-weight: bold;
+}
+
+/*Especificidad: 001*/
+table {
+    border-collapse: collapse;
+    margin: 1em 0;
+}
+
+/*Especificidad: 001*/
+caption {
+    font-weight: bold;
+    margin-bottom: 0.5em;
+    text-align: left;
+}
+
+/*Especificidad: 001*/
+th, td {
+    border: 1px solid var(--color-principal);
+    padding: 0.5em 1em;
+    text-align: left;
+}
+
+/*Especificidad: 001*/
+th {
+    background-color: var(--color-secundario);
+    color: var(--color-principal);
+}
+
+/*Especificidad: 003*/
+section:has(article) article {
+    text-align: center;
+}

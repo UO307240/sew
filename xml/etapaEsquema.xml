@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<etapa xmlns="http://www.uniovi.es"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.uniovi.es etapa.xsd">
+
+    <datos_basicos>
+        <nombre>Cartagena a Lorca</nombre>
+        <numero>11</numero>
+        <fecha>2026-09-02</fecha>
+        <tipo>Llana</tipo>
+        <distancia unidades="km">153.8</distancia>
+        <desnivel unidades="m">1351</desnivel>
+        <ganador>
+            <nombre_ciclista>Jasper Philipsen</nombre_ciclista>
+            <tiempo>03:25:04</tiempo>
+            <velocidad unidades="km/h">44.97</velocidad>
+        </ganador>
+    </datos_basicos>
+
+    <referencias>
+        <referencia>https://cartagena.es</referencia>
+        <referencia>https://www.lorca.es</referencia>
+        <referencia>https://www.carm.es</referencia>
+    </referencias>
+
+    <multimedia>
+        <fotografias>
+            <fotografia>multimedia/salida_cartagena.jpg</fotografia>
+            <fotografia>multimedia/puerto_aledo.jpg</fotografia>
+            <fotografia>multimedia/meta_lorca.jpg</fotografia>
+        </fotografias>
+        <videos>
+            <video>multimedia/resumen_etapa11.mp4</video>
+        </videos>
+        <podcasts>
+            <podcast>multimedia/audio_etapa11.mp3</podcast>
+        </podcasts>
+    </multimedia>
+
+    <itinerario>
+        <salida>
+            <poblacion>Cartagena</poblacion>
+            <coordenadas>
+                <latitud unidades="grados">37.5994</latitud>
+                <longitud unidades="grados">-0.97692</longitud>
+                <altitud unidades="m">39</altitud>
+            </coordenadas>
+        </salida>
+        <meta>
+            <poblacion>Lorca</poblacion>
+            <coordenadas>
+                <latitud unidades="grados">37.66017</latitud>
+                <longitud unidades="grados">-1.70456</longitud>
+                <altitud unidades="m">337</altitud>
+            </coordenadas>
+        </meta>
+        <hitos>
+            <hito tipo="sprint_bonificado">
+                <nombre_hito>Sprint Intermedio Totana</nombre_hito>
+                <coordenadas>
+                    <latitud unidades="grados">37.7711</latitud>
+                    <longitud unidades="grados">-1.5</longitud>
+                    <altitud unidades="m">225</altitud>
+                </coordenadas>
+                <distancia_salida unidades="km">111.9</distancia_salida>
+            </hito>
+            <hito tipo="puerto_3">
+                <nombre_hito>Alto de Aledo</nombre_hito>
+                <coordenadas>
+                    <latitud unidades="grados">37.7925</latitud>
+                    <longitud unidades="grados">-1.5739</longitud>
+                    <altitud unidades="m">623</altitud>
+                </coordenadas>
+                <distancia_salida unidades="km">121.8</distancia_salida>
+            </hito>
+        </hitos>
+        <puntos_paso>
+            <punto_paso nombre = "Los Nietos">
+                <coordenadas>
+                    <latitud unidades="grados">37.6433</latitud>
+                    <longitud unidades="grados">-0.835</longitud>
+                    <altitud unidades="m">10</altitud>
+                </coordenadas>
+                <distancia_salida unidades="km">23</distancia_salida>
+            </punto_paso>
+            <punto_paso nombre = "Los Alcázares">
+                <coordenadas>
+                    <latitud unidades="grados">37.7428</latitud>
+                    <longitud unidades="grados">-0.835</longitud>
+                    <altitud unidades="m">10</altitud>
+                </coordenadas>
+                <distancia_salida unidades="km">36.2</distancia_salida>
+            </punto_paso>
+            <punto_paso nombre = "Torre-Pacheco">
+                <coordenadas>
+                    <latitud unidades="grados">37.7428</latitud>
+                    <longitud unidades="grados">-0.9611</longitud>
+                    <altitud unidades="m">36</altitud>
+                </coordenadas>
+                <distancia_salida unidades="km">48.5</distancia_salida>
+            </punto_paso>
+            <punto_paso nombre = "Fuente Álamo de Murcia">
+                <coordenadas>
+                    <latitud unidades="grados">37.7203</latitud>
+                    <longitud unidades="grados">-1.1711</longitud>
+                    <altitud unidades="m">128</altitud>
+                </coordenadas>
+                <distancia_salida unidades="km">75.9</distancia_salida>
+            </punto_paso>
+        </puntos_paso>
+    </itinerario>
+
+    <clasificaciones>
+        <clasificacion_etapa>
+            <ciclista_etapa>
+                <nombre_ciclista>Jasper Philipsen</nombre_ciclista>
+                <equipo>Alpecin-Premier Tech</equipo>
+                <posicion>1</posicion>
+            </ciclista_etapa>
+            <ciclista_etapa>
+                <nombre_ciclista>Kaden Groves</nombre_ciclista>
+                <equipo>Alpecin-Premier Tech</equipo>
+                <posicion>2</posicion>
+                <diferencia_tiempo>+00:00:02</diferencia_tiempo>
+            </ciclista_etapa>
+            <ciclista_etapa>
+                <nombre_ciclista>Wout van Aert</nombre_ciclista>
+                <equipo>Team Visma</equipo>
+                <posicion>3</posicion>
+                <diferencia_tiempo>+00:00:02</diferencia_tiempo>
+            </ciclista_etapa>
+        </clasificacion_etapa>
+        <clasificacion_general>
+            <ciclista_general>
+                <nombre_ciclista>Primož Roglič</nombre_ciclista>
+                <equipo>Red Bull - BORA - hansgrohe</equipo>
+                <posicion>1</posicion>
+            </ciclista_general>
+            <ciclista_general>
+                <nombre_ciclista>Enric Mas</nombre_ciclista>
+                <equipo>Movistar Team</equipo>
+                <posicion>2</posicion>
+            </ciclista_general>
+            <ciclista_general>
+                <nombre_ciclista>Richard Carapaz</nombre_ciclista>
+                <equipo>EF Education - FasyPost</equipo>
+                <posicion>3</posicion>
+                <diferencia_tiempo>+00:00:12</diferencia_tiempo>
+            </ciclista_general>
+        </clasificacion_general>
+        <clasificacion_equipos>
+            <equipo_clasificado>
+                <nombre_equipo>Red Bull - BORA - hansgrohe</nombre_equipo>
+                <posicion>1</posicion>
+            </equipo_clasificado>
+            <equipo_clasificado>
+                <nombre_equipo>Movistar Team</nombre_equipo>
+                <posicion>2</posicion>
+                <diferencia_tiempo>+00:00:45</diferencia_tiempo>
+            </equipo_clasificado>
+            <equipo_clasificado>
+                <nombre_equipo>UAE Team Emirates XRG</nombre_equipo>
+                <posicion>3</posicion>
+                <diferencia_tiempo>+00:01:10</diferencia_tiempo>
+            </equipo_clasificado>
+        </clasificacion_equipos>
+    </clasificaciones>
+</etapa>

@@ -1,0 +1,134 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <title>LaVuelta2026</title>
+
+    <meta name="author" content="Darío González Martínez" />
+    <meta name="description" content="Documento ciclista.html del proyecto LaVuelta2026" />
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="icon" href="multimedia/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
+    <link rel="stylesheet" type="text/css" href="estilo/layout.css" />
+</head>
+
+<body>
+    <header>
+        <h1><a href="index.html" title="Página principal de La Vuelta 2026">LaVuelta2026</a></h1>
+        <nav>
+            <a href="index.html" title="Página principal de La Vuelta 2026">Inicio</a>
+            <a href="ciclista.html" aria-current="page" title="Información sobre el ciclista">Ciclista</a>
+            <a href="equipo.html" title="Información sobre el equipo del ciclista">Equipo</a>
+            <a href="etapa.html" title="Detalles del recorrido de la etapa">Etapa</a>
+            <a href="meteorologia.html" title="Información meteorológica de la etapa">Meteorología</a>
+            <a href="clasificaciones.html" title="Clasificaciones generales y de etapa">Clasificaciones</a>
+            <a href="juegos.html" title="Juegos y cuestionario interactivo sobre la etapa">Juegos</a>
+            <a href="ayuda.html" title="Ayuda y guía de uso del sitio web">Ayuda</a>
+        </nav>
+    </header>
+
+    
+    <nav aria-label="migas">
+        <ol>
+            <li><a href="index.html" title="Página principal de La Vuelta 2026">Inicio</a></li>
+            <li>>></li>
+            <li>Ciclista</li>
+        </ol>
+    </nav>
+    
+    <main>
+        <h2>Harold Tejada</h2>
+
+        <section>
+            <h3>Datos personales</h3>
+            <ul>
+                <li>Harold Alfonso Tejada Canacue</li>
+                <li>27 de abril de 1997</li>
+                <li>Colombia</li>
+                <li>XDS Astana Team</li>
+                <li>145</li>
+            </ul>
+
+            <picture>
+                <source media="(max-width: 768px)" srcset="multimedia/harold_tejada_movil.png" width="225" height="300" />
+                <source media="(max-width: 1024px)" srcset="multimedia/harold_tejada_tablet.png" width="338" height="450" />
+                <img src="multimedia/harold_tejada.png" alt="Fotografía del ciclista Harold Tejada" width="450" height="600" />
+            </picture>
+        </section>
+
+        <section>
+            <h3>Datos equipos</h3>
+            <ol>
+                <li>XDS Astana Team (2025 - Actualidad)</li>
+                <li>Astana Qazaqstan Team (2020 - 2024)</li>
+                <li>Team Medellín (2019)</li>
+                <li>EPM (2017 - 2018)</li>
+            </ol>
+        </section>
+
+        <section>
+            <h3>Temporada 2025</h3>
+            <table>
+                <caption>Resultados de la temporada 2025</caption>
+                <tr>
+                    <th id="th-datos" scope="col">DATOS</th>
+                    <th id="th-resultados" scope="col">RESULTADOS</th>
+                </tr>
+                <tr>
+                    <th id="podiums" scope="row">Podiums</th>
+                    <td headers="th-resultados podiums">1</td>
+                </tr>
+                <tr>
+                    <th id="carreras" scope="row">Carreras</th>
+                    <td headers="th-resultados carreras">18</td>
+                </tr>
+                <tr>
+                    <th id="maillots" scope="row">Maillots</th>
+                    <td headers="th-resultados maillots">0</td>
+                </tr>
+                <tr>
+                    <th id="equipos" scope="row">Equipos</th>
+                    <td headers="th-resultados equipos">4</td>
+                </tr>
+                <tr>
+                    <th id="etapas" scope="row">Etapas</th>
+                    <td headers="th-resultados etapas">21</td>
+                </tr>
+            </table>
+        </section>
+
+        <section>
+            <h3>Multimedia</h3>
+            
+            <p>
+                Equipo 
+                <a href="https://www.lavuelta.es/es/equipo/14/xds-astana-team" title="Página oficial de XDS Astana Team en La Vuelta">
+                    XDS Astana Team
+                </a> 
+                en la Vuelta Ciclista a España 2026.
+            </p>
+
+            <video controls="controls" poster="multimedia/poster_astana.jpg">
+                <source src="multimedia/video_astana.webm" type="video/webm" />
+                <source src="multimedia/video_astana.mp4" type="video/mp4" />
+            </video>
+
+            <audio controls="controls">
+                <source src="multimedia/audio_astana.mp3" type="audio/mpeg" />
+                <source src="multimedia/audio_astana.wav" type="audio/wav" />
+            </audio>
+
+        </section>
+    </main>
+
+    <footer>
+        <p>Darío González Martínez</p>
+        <address>
+            <a href="mailto:uo307240@uniovi.es">UO307240@uniovi.es</a>
+        </address>
+    </footer>
+</body>
+</html>

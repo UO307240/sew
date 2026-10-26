@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Etapa 11: Cartagena a Lorca</name>
+    <description>Planimetría y recorrido de la etapa</description>
+    <Placemark>
+      <name>Salida: Cartagena</name>
+      <description>Km: 0.0 | Altitud: 39 m</description>
+      <Point>
+        <coordinates>-0.97692,37.5994,39</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Los Nietos</name>
+      <description>Km: 23.0 | Altitud: 10 m</description>
+      <Point>
+        <coordinates>-0.835,37.6433,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Los Alcázares</name>
+      <description>Km: 36.2 | Altitud: 10 m</description>
+      <Point>
+        <coordinates>-0.835,37.7428,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Torre-Pacheco</name>
+      <description>Km: 48.5 | Altitud: 36 m</description>
+      <Point>
+        <coordinates>-0.9611,37.7428,36</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Fuente Álamo de Murcia</name>
+      <description>Km: 75.9 | Altitud: 128 m</description>
+      <Point>
+        <coordinates>-1.1711,37.7203,128</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Sprint Intermedio Totana</name>
+      <description>Km: 111.9 | Altitud: 225 m</description>
+      <Point>
+        <coordinates>-1.5,37.7711,225</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Alto de Aledo</name>
+      <description>Km: 121.8 | Altitud: 623 m</description>
+      <Point>
+        <coordinates>-1.5739,37.7925,623</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Meta: Lorca</name>
+      <description>Km: 153.8 | Altitud: 337 m</description>
+      <Point>
+        <coordinates>-1.70456,37.66017,337</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Recorrido Etapa 11</name>
+    <Style>
+      <LineStyle>
+        <color>ff0000ff</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+      <LineString>
+        <extrude>1</extrude>
+        <tessellate>1</tessellate>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>
+          -0.97692,37.5994,39 -0.835,37.6433,10 -0.835,37.7428,10 -0.9611,37.7428,36 -1.1711,37.7203,128 -1.5,37.7711,225 -1.5739,37.7925,623 -1.70456,37.66017,337
+        </coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>
